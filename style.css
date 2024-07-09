@@ -1,0 +1,277 @@
+*{
+    background-color: #f5f1ee;
+}
+/*   navigation   */
+
+html {
+    scroll-behavior: smooth;
+}
+nav{
+    margin: 2rem;
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu ul{
+    display: flex;
+    
+
+}
+.nav-menu >ul>li{
+    text-align: left;
+    line-height: 30px;
+    color: rgb(var(--txt, var(--color_15, color_15)));
+    display: inline-block;
+    padding: 0 10px;
+    transition: var(--trans, color .4s ease 0s);
+}
+
+.nav-main img{
+    width: 241px;
+    height: 85px;
+    object-fit: cover;
+}
+
+.contact-button{
+    height: 3rem;
+    width: 150px;
+    margin: 1rem;
+    
+}
+.contact-button:hover{
+    transition: smooth;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+}
+
+/* intro */
+#intro{
+    display: flex;
+}
+.intro1{
+    width: 50%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro1 h1{
+    font-weight: 700;
+    margin: 2rem;
+    text-align: center;
+    font-size: 48px;
+}
+.intro1 img{
+    width: 416px;
+    height: 464px;
+    border-radius: 50% 50% 0% 0%;
+    object-fit: cover;
+}
+.intro1 h5{
+    margin: 1.5rem;
+    font-size: 25px;
+    font-weight: 200;
+}
+.intro2{
+    width: 50%;
+}
+.intro2 img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+ /* ABOUT */
+
+ .about{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .about>h1{
+    font-size: 72px;
+    text-align: center;
+ }
+ .about>p{
+    text-align: center;
+    width: 38%;
+    font-size: 16px;
+ }
+
+ /* menu */
+ #menu{
+    margin:7%;
+ }
+ #menu>h1{
+    font-size: 72px;
+    margin: 2% 0%;
+ }
+ #menu>h4{
+    font-size: 24px;
+    margin: 2% 0%;
+ }
+ .item{
+    margin: 10% 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15%;
+ }
+ .item-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+ }
+ .item-card>img{
+    width: 306px;
+    height: 373px;
+    border-radius: 50% 50% 0% 0%;
+ }
+ .item-card>h1{
+    font-weight: 500;
+    text-align: center;
+    font-size: 32px;
+ }
+ .item-card>h3{
+    text-align: center;
+    font-size: 20px;
+ }
+ .item-card>p{
+    font-size: 16px;
+    text-align: center;
+ }
+
+ /* FOLOOW US */
+ #followUs{
+    display: flex;
+    margin-bottom: 7rem;
+    flex-direction: column;
+    align-items: center;
+ }
+ #followUs>h1{
+    display: block;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 500;
+ }
+ .insta{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    padding: 32px 20px;
+
+ }
+ .insta-id{
+    display: flex;
+    gap: 1.5rem;
+ }
+ .insta-id>img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 50%;
+ }
+ .insta-id-detail>h5{
+    font-size: 20px;
+ }
+ .insta-id-followDetail{
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+ }
+ .insta-image{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 2rem;
+    
+}
+.img-cover{
+
+    background-color: rgba(0, 0, 1, 0.7);
+}
+.insta-img{
+    transition: all .2s ease-out;
+}
+.insta-img:hover{
+    opacity: 0.5;
+}
+
+
+/* footer */
+#Footer{
+   margin-top: 5rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.contact-details{
+   padding: 3rem;
+}
+.contact-details{
+   text-align: center;
+}
+.contact-details>a{
+   text-decoration: underline;
+}
+ .contact-details-heading{
+   font-size: 35px;
+   font-weight: 600;
+}
+
+.contain{
+   padding-top: 3rem;
+   width: 60%;
+   background-color: #aba4f9;
+   position: relative;
+   width: 800px;
+   height: 400px;
+   border-radius: 400px 400px 0 0;
+}
+ .contact-details-form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 4rem;
+   width: 300px;
+   margin: auto;
+   background-color: #aba4f9;
+}
+
+.contact-details-form>h1{
+   text-align: center;
+   font-weight: 500;
+   font-size: 32px;
+   background-color: #aba4f9;
+}
+.contact-details-input{
+   display: flex;
+   flex-direction: column;
+   background-color: #aba4f9;
+   align-items: center;
+}
+.contact-details-input>h4{
+   font-size: 16px;
+   background-color: #aba4f9;
+   margin: 1rem;
+}
+.contact-details-input>input{
+   background-color: #aba4f9;
+   padding:10px 30px;
+   border-bottom: 1px solid black;
+}
+.contact-details-input>input:focus{
+   background-color: #aba4f9;
+   padding:10px 30px;
+   border-bottom: 1px solid black;
+}
